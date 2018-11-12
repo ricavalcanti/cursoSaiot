@@ -5,7 +5,7 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>
 
-#define rotaDateTime "http://api.saiot.ect.ufrn.br/v1/device/history/datetime"
+#define rotaDateTime "http://dev.api.saiot.ect.ufrn.br/v1/device/history/datetime"
 #define rotaPSensor "/history/post/logs/sensor/"
 #define rotaPController "/control/put/me/"
 

@@ -93,6 +93,16 @@ void SaIoTSensor::sendData(String _value, String dateTime){
     lastDate = dateTime;
 }
 
+void SaIoTSensor::sendData(double _value){
+    reportMe = 1;
+    value = _value;
+    lastDate = String(0);
+}
+void SaIoTSensor::sendData(String _value){
+    reportMe = 1;
+    valueStr = _value;
+    lastDate = String(0);
+}
 //FUNCIONALIDADES FUTURAS
 
 /*void SaIoTSensor::setValue(double _value){
